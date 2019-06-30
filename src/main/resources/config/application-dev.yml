@@ -1,0 +1,4 @@
+# 数据源
+druid:
+  config:
+    file: ${druid.file:/usr/share/file/managerDatasource.yaml}
