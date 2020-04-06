@@ -2,3 +2,19 @@
 druid:
   config:
     file: ${druid.file:/usr/share/file/managerDatasource.yaml}
+
+# 数据源配置
+spring:
+  ### Redis配置
+  redis:
+    database: 5
+    host: 47.98.124.74
+    port: 6379
+    password: redis8899
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        timeout: 0
+        max-wait: -1
